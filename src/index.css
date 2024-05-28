@@ -1,0 +1,79 @@
+body{
+  background-color: hsla(194, 100%, 62%, 0.948);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.to-do-list{
+  margin: 80px;
+  width: 450px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  padding: 25px;
+  background-color: white;
+}
+.inputData{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+p{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: hsl(120, 100%, 45%);
+}
+.add-button{
+  height: 20px;
+  padding: 10px;
+  background-color: hsl(120, 100%, 45%);
+  border-radius: 50%;
+  cursor: pointer;
+} 
+.move-button, .delete-button{
+  height: 25px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 50% ;
+}
+.delete-button:hover{
+  transition: 0.3s ease;
+  background-color: hsl(0, 100%, 60%);
+}
+.move-button:hover{
+  transition: 0.3s ease;
+  background-color: hsl(204, 100%, 58%);
+}
+.add-button:hover{
+  transition: 0.3s ease;
+}
+input[type="text"]{
+  padding: 10px;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 30px;
+  background-color: hsla(0, 0%, 90%, 0.8);
+}
+ol{
+  padding: 0;
+  margin: 0px;
+}
+li{
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  background-color: hsla(0, 0%, 90%, 0.8);
+}
+.text{
+  flex:1;
+}
+h1{
+  font-size: 2rem;
+}
